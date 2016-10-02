@@ -1,4 +1,9 @@
 # Frisk Theme
+This is a theme for the Kirby CMS.
+
+## Demo
+See this theme in action at:
+https://frisk.kirby.leonsiekmann.de/
 
 ## How to install
 The installation process is pretty easy!
@@ -8,10 +13,6 @@ If you already have a kirby starterkit running, delete the `assets`, `content` a
 If you want to change the main color of this theme, simply go to the site-settings in your panel.
 
 The theme comes with the Features-page from this demo, which shows you how to use all the different elements in Markdown and Kirbytext. Make sure to have a look at how to use these cool buttons, or the columns. ;)
-
-## Demo
-See this theme in action at:
-https://frisk.kirby.leonsiekmann.de/
 
 ## License
 This theme is **free to use** with your Kirby installation. However I would appreciate it if you acknowledge my work in the footer of your website. Therefor it is licensed under a (link: http://creativecommons.org/licenses/by/4.0/ text: Creative Commons Attribution 4.0 International License).
