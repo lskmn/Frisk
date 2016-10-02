@@ -1,79 +1,29 @@
-# Kirby
+# Frisk Theme
+This is a theme for the Kirby CMS.
 
-Kirby is a file-based CMS..
-Easy to setup. Easy to use. Flexible as hell.
+## Demo
+See this theme in action at:
+https://frisk.kirby.leonsiekmann.de/
 
-## Trial
+## How to install
+The installation process is pretty easy!
+Simply download the .zip above and throw it into the root folder of your webspace.
+If you already have a kirby starterkit running, delete the `assets`, `content` and `site` folders and replace them with the folders from this theme-package.
 
-You can try Kirby on your local machine or on a test
-server as long as you need to make sure it is the right
-tool for your next project.
+If you want to change the main color of this theme, simply go to the site-settings in your panel.
 
-## Buy a license
+The theme comes with the Features-page from this demo, which shows you how to use all the different elements in Markdown and Kirbytext. Make sure to have a look at how to use these cool buttons, or the columns. ;)
 
-You can purchase your Kirby license at
-<http://getkirby.com/buy>
+## License
+This theme is **free to use** with your Kirby installation. However I would appreciate it if you acknowledge my work in the footer of your website. Therefor it is licensed under a (link: http://creativecommons.org/licenses/by/4.0/ text: Creative Commons Attribution 4.0 International License).
 
-A Kirby license is valid for a single domain. You can find
-Kirby's license agreement here: <http://getkirby.com/license>
+Please note, that you’ll still have to (link: http://getkirby.com/buy text: buy a License for Kirby).
 
-## The Starterkit
+## Acknowledgements
+Frisk theme uses the code of two plugins to realise certain features:
+- The realisation of (link: http://getkirby.com/blog/columns-in-kirbytext text: Columns by Bastian Allgeier)
+- (link: https://github.com/ian-cox/Kirby-Color-Picker text: The kirby color picker by ian-cox) to give you the ability to change the color scheme with just a few clicks
 
-Kirby's Starterkit comes with a small demo website and a fully
-configured panel. Feel free to modify it and play with it as
-much as you like.
-
-## The Panel
-
-You can find the login for Kirby's admin interface at
-http://yourdomain.com/panel. You will be guided through the signup
-process for your first user, when you visit the panel
-for the first time.
-
-## Installation
-
-Kirby does not require a database, which makes it very easy to
-install. Just copy Kirby's files to your server and visit the
-URL for your website in the browser.
-
-**Please check if the invisible .htaccess file has been
-copied to your server correctly**
-
-### Requirements
-
-Kirby runs on PHP 5.3+, Apache or Nginx.
-
-### Download
-
-You can download the latest version of the Starterkit
-from http://download.getkirby.com
-
-### With Git
-
-If you are familiar with Git, you can clone Kirby's
-Starterkit repository from Github.
-
-    git clone --recursive https://github.com/getkirby/starterkit.git
-
-## Documentation
-<http://getkirby.com/docs>
-
-## Issues and feedback
-
-If you have a Github account, please report issues
-directly on Github:
-
-- <https://github.com/getkirby/kirby/issues>
-- <https://github.com/getkirby/panel/issues>
-- <https://github.com/getkirby/starterkit/issues>
-
-Otherwise you can use Kirby's forum: http://getkirby.com/forum
-or send us an email: <support@getkirby.com>
-
-## Support
-<http://getkirby.com/support>
-
-## Copyright
-
-© 2009-2014 Bastian Allgeier (Bastian Allgeier GmbH)
-<http://getkirby.com>
+## Any questions left?
+Don’t hesitate to contact me:
+www.leonsiekmann.de/contact
