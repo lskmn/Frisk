@@ -1,0 +1,111 @@
+Title: Typography & Elements
+
+----
+
+Text: 
+
+# Headline 1
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+## Headline 2
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+### Headline 3
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+#### Headline 4
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+##Bold & Italic
+**The quick brown fox jumps over the lazy dog**
+
+_The quick brown fox jumps over the lazy dog_
+
+## Buttons
+You can use buttons via the following kirbytag: 
+`( button: YOUR TEXT url: YOUR URL color: COLOR icon: FONT AWESOME CODE popup: YES/NO) `
+
+These colors are preconfigured:
+(button: green url: typography-elements/button color: green)(button: red url: typography-elements/button color: red)(button: blue url: typography-elements/button color:blue)(button: yellow url: typography-elements/button color:yellow) (button: black url: typography-elements/button color:black)(button: main url: typography-elements/button color:main)
+
+Main stands for the main-theme color that you have selected in the panel.
+
+For icons, simply have a look at (link: http://fontawesome.io/icons/ text: what FontAwesome has to offer popup: yes).
+
+(button: Thousands of icons are ready to use url: http://fontawesome.io/icons/ icon: check-circle popup: yes)
+
+## Quotes
+> Design is not just what it looks like and feels like.
+> Design is how it works.
+
+– Steve Jobs
+
+## Columns
+You can also create columns by starting them with the `( columns... )` tag, separating them with `++++` and ending them with the `( ...columns )` tag. They will look like this:
+
+(columns...)
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+++++
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+++++
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+(...columns)
+
+## Code
+This is how a code-block looks like:
+```
+<?php
+
+// awesome code example
+
+?>
+```
+
+Or a single `code element`.
+
+And finally, Github:
+
+(gist: https://gist.github.com/2556891)
+
+## Videos
+
+(youtube: https://www.youtube.com/watch?v=qybUFnY7Y8w)
+
+or
+
+(vimeo: https://vimeo.com/63653873)
+
+## Lists
+The Simpsons:
+- Homer
+- Marge
+- Bart
+- Lisa
+- Maggie
+
+The Simpsons:
+1. Homer
+2. Marge
+3. Bart
+4. Lisa
+5. Maggie
+
+## Separator
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+****
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+----
+
+Submenu: 1
+
+----
+
+Backbutton: 

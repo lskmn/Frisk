@@ -1,0 +1,13 @@
+Title: Oh, you pushed the button! :D
+
+----
+
+Text: They seem to work, so go on and try some other features.
+
+----
+
+Submenu: 
+
+----
+
+Backbutton: 1
