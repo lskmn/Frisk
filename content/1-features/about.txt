@@ -1,0 +1,20 @@
+Title: Features
+
+----
+
+Text: 
+
+Frisk comes with a bunch of awesome features and ways of customization. Check out the subpages of this page to find out more! :)
+
+For each page created, you can decide if you want to show a sub-menu on top to help your visitors navigate through your sub-pages.
+
+By the way: This theme is completely responsive. Go and try it out on your mobile devices!
+(image: bildschirmfoto-2015-08-16-um-18.46.51.jpg)
+
+----
+
+Submenu: 1
+
+----
+
+Backbutton: 

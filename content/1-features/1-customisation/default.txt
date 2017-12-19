@@ -1,0 +1,35 @@
+Title: Customisation
+
+----
+
+Text: 
+
+This theme comes with quite a few options, which let you decide about it's look and feel.
+
+(columns...)
+### Changing the main color is as easy as pie!
+(image: bildschirmfoto-2015-08-13-um-17.28.16.jpg)
+No need to change your css, just go to the Site-options in your panel and you're good to go. :)
+
+++++
+
+### Backbutton? Submenu? Or maybe both?
+(image: buttons.png)
+Decide individually if your pages need a submenu at the top or a back button on the bottom.
+
+++++
+
+### OpenGraph Tags for Facebook
+(image: opengraph.jpg)
+Ensures that your pages look great when shared on Facebook.
+
+
+(...columns)
+
+----
+
+Submenu: 1
+
+----
+
+Backbutton: 
