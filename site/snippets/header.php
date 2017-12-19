@@ -1,83 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="author" content="<?php echo $site->author()->html() ?>" />
-	<meta name="publisher" content="<?php echo html($site->author()) ?>" />
-	<meta name="copyright" content="<?php echo html($site->author()) ?>" />
-	<?php if($page->isHomepage()): ?>
-	<meta name="description" content="<?php echo $site->description()->html() ?>" />
-	<?php else: ?>
-	<meta name="description" content="<?php echo html($page->text()->excerpt(160)) ?>" />
-	<?php endif ?>
-	<meta name="keywords" content="<?php echo $site->keywords()->html() ?>" />
-	<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
 
-	<?php if($page->isHomepage()): ?>
-	<title><?php echo html($site->title()) ?></title>
-	<?php else: ?>
-	<title><?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?></title>
-	<?php endif ?>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-	<meta name="robots" content="index,follow" />
-	<link rel="canonical" href="<?php echo html($page->url()) ?>" />
-	<link rel="shortcut icon" href="<?php echo url('/favicon.ico') ?>" />
+  <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
+  <meta name="description" content="<?= $site->description()->html() ?>">
 
-	<!-- OpenGraph Tags for Facebook, etc. -->
-	<meta name="DC.Title" content="<?php echo html($page->title()) ?>" />
-	<meta name="DC.Creator" content="<?php echo html($site->author()) ?>" />
-	<meta name="DC.Rights" content="<?php echo html($site->author()) ?>" />
-	<meta name="DC.Publisher" content="<?php echo html($site->author()) ?>" />
-	<?php if($page->isHomepage()): ?>
-	<meta name="DC.Description" content="<?php echo $site->description()->html() ?>" />
-	<?php else: ?>
-	<meta name="DC.Description" content="<?php echo html($page->text()->excerpt(160)) ?>" />
-	<?php endif ?>
-	<meta property="og:title" content="<?php echo html($page->title()) ?> | <?php echo html($site->title()) ?>" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="<?php echo html($page->url()) ?>" />
-	<?php foreach($page->images() as $image): ?>
-	<meta property="og:image" content="<?php echo $image->url() ?>" />
-	<?php endforeach ?>
-	<?php if($page->isHomepage()): ?>
-	<meta property="og:description" content="<?php echo $site->description()->html() ?>" />
-	<?php else: ?>
-	<meta property="og:description" content="<?php echo html($page->text()->excerpt(160)) ?>" />
-	<?php endif ?>
-	<meta itemprop="name" content="<?php echo html($page->title()) ?> | <?php echo html($site->title()) ?>">
-	<?php if($page->isHomepage()): ?>
-	<meta itemprop="description" content="<?php echo $site->description()->html() ?>">
-	<?php else: ?>
-	<meta itemprop="description" content="<?php echo html($page->text()->excerpt(160)) ?>">
-	<?php endif ?>
-
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,900italic' rel='stylesheet' type='text/css'>
-	<?php echo css( 'assets/css/main.css') ?>
-	<link rel="stylesheet" href="<?php echo url('assets/css/font-awesome/css/font-awesome.min.css');?>">
-	<?php snippet( 'maincolor') ?>
+  <?= css('assets/css/index.css') ?>
 
 </head>
-
 <body>
-	<div class="all">
 
-		<header class="seitenkopf">
+  <header class="header wrap wide" role="banner">
+    <div class="grid">
 
+      <div class="branding column">
+        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
+      </div>
 
-			<a href="<?php echo $site->homePage()->url() ?>">
-				<h1><?php echo $site->title()->html() ?></h1> 
-			</a>
+      <?php snippet('menu') ?>
 
-
-
-			<a href="#" class="toggle"><span class="fa fa-bars fa-3x"></span></a>
-
-
-			<?php snippet( 'menu') ?>
-
-
-
-		</header>
-
-
+    </div>
+  </header>

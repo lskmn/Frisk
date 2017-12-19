@@ -16,7 +16,7 @@ class Changes {
   }
 
   public function data() {
-    return s::get('changes', array());
+    return s::get('kirby_panel_changes', array());
   }
 
   public function id() {
@@ -52,7 +52,7 @@ class Changes {
       unset($store[$this->id()][$field]);          
     }
 
-    s::set('changes', $store);
+    s::set('kirby_panel_changes', $store);
 
     // remove all structures from the session as well
     $this->model->structure()->reset();
@@ -98,24 +98,24 @@ class Changes {
 
   public function update($field, $data = null) {
 
+    $store = $this->data();
+
     if(is_null($data) and is_array($field)) {
-      $store = $this->data();
       $store[$this->id()] = $field;
     } else if(is_string($field)) {
-      $store = $this->data();
       if(!isset($store[$this->id()]) or !is_array($store[$this->id()])) {
         $store[$this->id()] = array();
       }
       $store[$this->id()][$field] = $data;      
     }
 
-    s::set('changes', $store);
+    s::set('kirby_panel_changes', $store);
     return $store;
 
   }
 
   public function flush() {
-    s::set('changes', array());
+    s::set('kirby_panel_changes', array());
   }
 
 }

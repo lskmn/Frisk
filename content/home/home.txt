@@ -1,34 +1,20 @@
-Title: Welcome to Frisk
+Title: Home
+
+----
+
+Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
 
 ----
 
 Text: 
 
-Yay! If you are seeing this, the installation of the Frisk-theme worked.
-It's an awesome theme for everyone who want's a sleek and responsive way to share their projects, thoughts, pictures, videos and more.
+## Get started
 
-So maybe you want to (link: panel text: visit the Panel) to get started.
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
 
-(image: unsplash.jpg)
-## What can I do with this theme?
-Of course you can do plenty of things with this theme, possible use-cases are:
-(columns…)
-
-### Portfolio
-Show your work to the world! You can use the projects-page to show all of your projects or maybe just show some of them on the homepage (as you can see below).
-++++
-
-### Personal Website
-Show yourself from your best side! With large images and (link: features/typography-elements text: many other elements to use).
-++++
-
-### Blog
-The projects-section was designed with the use-case of a blog in mind. So why not share your thoughts instead of your latest projects? Or both: you can have as many projects pages as you want.
-
-(…columns)
-
-**Have fun with Kirby and Frisk!**
-
-----
-
-Latest: Latest Projects
+**Have fun with Kirby!**

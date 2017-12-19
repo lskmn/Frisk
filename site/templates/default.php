@@ -1,31 +1,19 @@
-<?php snippet( 'header') ?>
+<?php snippet('header') ?>
 
-<main class="main">
-	<?php if($page->submenu() == '1'): ?>
-	<?php snippet( 'submenu') ?>
-	<?php endif ?>
-	<article>
-		<header>
-			<h1><?php echo $page->title()->html() ?></h1>
-		</header>
+  <main class="main" role="main">
 
-		<!-- Display the content -->
+    <header class="wrap">
+      <h1><?= $page->title()->html() ?></h1>
+      <div class="intro text">
+        <?= $page->intro()->kirbytext() ?>
+      </div>
+      <hr />
+    </header>
+      
+    <div class="text wrap">
+      <?= $page->text()->kirbytext() ?>
+    </div>
 
-		<?php echo $page->text()->kirbytext() ?>
+  </main>
 
-	</article>
-
-	<?php if($page->backbutton() == '1'): ?>
-	<nav class="topnav">
-		<ul>
-			<li><a href="<?php echo $page->parent()->url() ?>">back</a>
-			</li>
-		</ul>
-
-	</nav>
-
-	<?php endif ?>
-
-</main>
-
-<?php snippet( 'footer') ?>
+<?php snippet('footer') ?>
